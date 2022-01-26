@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body{
+          font-family: Arial;
+        }
+        .main-area{
+            position: relative;
+            height:500px;
+            background-color: whitesmoke;
+            margin:-10px;
+        }
+        #brand-name{
+            position:absolute;
+            top:70px;
+            left:565px;
+            font-size: 40px;
+            font-weight: 700;
+            color:#586FFF;
+        }
+        .login-form{
+            position:absolute;
+            top:130px;
+            left:480px;
+            width:340px;
+            height:280px;
+            border:1px solid gray;
+            border-radius: 10px;
+            background-color: white;
+        }
+        #title-text{
+            margin:20px 0 0 95px;
+            font-weight: 600;
+            opacity:0.7;
+        }
+        input{
+            margin:5px 0 5px 15px;
+            width:300px;
+            padding-top:12px;
+            padding-bottom: 12px;
+            opacity:0.3;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+        #other-links{
+            margin: 10px 0 0 55px;
+        }
+        div span{
+            font-size: 12px;
+            margin-left: 5px;
+        }
+        input[type="submit"]{
+            background-color:#586FFF;
+            color:white;
+            font-weight: 700;
+            font-size:16px;
+            opacity:1;
+            padding-right: 20px;
+        }
+        a{
+            text-decoration: none;
+            color:#586FFF;
+            font-weight: 500;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-area">
+        <div id="brand-name">facebook</div>
+        <form class="login-form">
+        <div id="title-text">Log In to Facebook</div><br>
+        <input name="userid" id="userid" type="text" placeholder="Email address or phone number"><br>
+        <input name="pwd" id="pwd" type="password" placeholder="Password"><br>
+        <input name="sub" id="sub" type="submit" value="Log In"><br>
+        <div id="other-links">
+        <span><a href="">Forgotten account?</a></span><span><a href="">Sign up for Facebook</a></span>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
